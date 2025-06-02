@@ -8,7 +8,7 @@ const features = [
 
 export default function FeatureCards() {
   return (
-    <section className="py-global_y px-global_x w-full">
+    <section className="py-global_y px-6 md:px-global_x w-full">
       <div className="mx-auto grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
         {features.map((item, index) => (
           <div

@@ -29,7 +29,7 @@ export default function ProductGrid() {
   ];
 
   return (
-    <section className="bg-white py-global_y px-global_x w-full border-b border-gray-300">
+    <section className="bg-white py-global_y px-6 md:px-global_x w-full border-b border-gray-300">
       <div className="text-start w-full">
         <div className="pb-10">
           <h1 className="text-header">OUR ALUMINIUM SYSTEMS</h1>

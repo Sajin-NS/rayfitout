@@ -16,10 +16,10 @@ const values = [
 export default function ValueProps() {
   return (
     <section className=" bg-white border-b border-gray-300 pb-20">
-      <h1 className="text-header px-global_x uppercase border-b border-gray-300 w-full pb-6">
+      <h1 className="text-header px-6 md:px-global_x uppercase border-b border-gray-300 w-full pb-6">
         About Our Products & Services
       </h1>
-      <div className=" px-global_x grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 pt-10">
+      <div className="px-6 md:px-global_x grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 pt-10">
         {values.map((val, idx) => (
           <div key={idx} className="bg-white py-6 text-center md:text-start">
             <h3 className="text-subHeader font-mont mb-2 uppercase">
