@@ -4,9 +4,7 @@ import Button from "./common/Button";
 export default function MaterialsSection() {
   return (
     <div className="w-full h-auto bg-white">
-      {/* Top Section */}
       <div className="min-h-[70vh] grid grid-cols-1 md:grid-cols-2 md:pl-12">
-        {/* Text Box */}
         <div className="p-6 flex flex-col justify-between max-w-lg">
           <div className="text-[16px] sm:text-[18px] text-gray-500 uppercase mb-2">
             Materials
@@ -32,10 +30,9 @@ export default function MaterialsSection() {
           </div>
         </div>
 
-        {/* Image */}
         <div className="relative h-64 md:h-auto grayscale">
           <Image
-            src="/MaterialsSection.png" // Ensure this exists in /public
+            src="/MaterialsSection.png"
             alt="Machinery"
             fill
             className="object-cover"
@@ -43,7 +40,6 @@ export default function MaterialsSection() {
         </div>
       </div>
 
-      {/* Bottom Section */}
       <div className="bg-gray-100 flex flex-col md:flex-row justify-between items-center gap-6 px-6 py-12 md:p-20 mx-4 sm:mx-10 my-20">
         <h2 className="text-[26px] sm:text-[32px] md:text-[40px] font-light text-center md:text-left">
           HAVE A PROJECT IN MIND ?

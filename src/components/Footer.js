@@ -3,7 +3,6 @@ import Button from "./common/Button";
 export default function Footer() {
   return (
     <footer className="bg-white text-black font-mont text-sm">
-      {/* Top Contact Section */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 px-6 md:px-20 py-12 border-b border-gray-300 text-center md:text-left">
         <div>
           <h2 className="text-2xl md:text-title leading-snug mb-2">
@@ -20,13 +19,10 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Middle Grid Section */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-16 px-6 md:px-20 py-10 border-b border-gray-300">
-        {/* Labels Column */}
         <div>
           <p className="text-[19px] mb-1 font-semibold">OFFICE</p>
         </div>
-        {/* Office Addresses */}
         <div>
           <p className="uppercase text-small">Dubai, UAE</p>
           <p className="text-small text-onWhiteGray">23, ST 35, AL QUSAIS 5</p>
@@ -51,7 +47,6 @@ export default function Footer() {
           <p className="text-small text-onWhiteGray">+254 2076 40228</p>
         </div>
 
-        {/* Business Emails */}
         <div>
           <p className="text-[19px] mb-1 font-semibold">BUSINESS</p>
         </div>
@@ -84,7 +79,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom Footer Bar */}
       <div className="flex flex-col md:flex-row justify-between items-center px-6 md:px-20 py-6 text-[12px] text-gray-500 gap-4 text-center md:text-left">
         <p>PRIVACY POLICY</p>
         <div className="flex flex-col sm:flex-row gap-2 sm:gap-20">
