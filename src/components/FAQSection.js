@@ -42,7 +42,7 @@ export default function FAQSection() {
   };
 
   return (
-    <section className="bg-white py-20 px-4 md:px-global_x">
+    <section className="bg-white py-20 px-4 md:px-global_x pb-30 border-b border-gray-300">
       <div className="mx-auto">
         <h2 className="text-header mb-6 font-mont uppercase border-b border-gray-300 pb-10">
           Frequently Asked Questions

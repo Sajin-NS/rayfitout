@@ -8,6 +8,7 @@ import FAQSection from "@/components/FAQSection";
 import InquirySection from "@/components/InquirySection";
 import Footer from "@/components/Footer";
 import MaterialsSection from "@/components/MaterialsSection";
+import Services from "@/components/Services";
 
 export default function Home() {
   return (
@@ -20,9 +21,9 @@ export default function Home() {
         <FeatureCards />
         <ValueProps />
         <InquirySection />
-        {/* djaskd */}
         <MaterialsSection />
         <FAQSection />
+        <Services />
       </main>
       <Footer />
     </div>
