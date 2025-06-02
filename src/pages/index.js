@@ -25,21 +25,23 @@ const fadeInUp = {
 };
 
 export default function Home() {
+  const sections = [
+    HeroSection,
+    AboutBlock,
+    ProductGrid,
+    FeatureCards,
+    ValueProps,
+    InquirySection,
+    MaterialsSection,
+    FAQSection,
+    Services,
+  ];
+
   return (
     <div className="font-mont">
       <Navbar />
       <main>
-        {[
-          <HeroSection />,
-          <AboutBlock />,
-          <ProductGrid />,
-          <FeatureCards />,
-          <ValueProps />,
-          <InquirySection />,
-          <MaterialsSection />,
-          <FAQSection />,
-          <Services />,
-        ].map((Component, index) => (
+        {sections.map((Section, index) => (
           <motion.div
             key={index}
             custom={index}
@@ -48,7 +50,7 @@ export default function Home() {
             whileInView="visible"
             viewport={{ once: true, amount: 0.2 }}
           >
-            {Component}
+            <Section />
           </motion.div>
         ))}
       </main>
