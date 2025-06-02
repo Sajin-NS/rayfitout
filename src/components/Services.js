@@ -9,7 +9,7 @@ export default function Services() {
 
   return (
     <section className="px-global_x py-20 border-b border-gray-300">
-      <h1 className="text-header">OUR ALUMINIUM SYSTEMS</h1>
+      <h1 className="text-header">OTHER SERVICES</h1>
       <section className="py-10 w-full">
         <div className="mx-auto grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((item, index) => (

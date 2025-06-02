@@ -10,7 +10,7 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --text-small: 16px;
+  --text-small: 18px;
   --text-medium: 20px;
   --text-header: 30px;
   --text-subHeader: 24px;
@@ -30,5 +30,11 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: mont, sans-serif;
+}
+@font-face {
+  font-family: "Mont";
+  src: url("/fonts/mont-thin.woff2") format("woff2");
+  font-weight: 100; /* Thin */
+  font-style: normal;
+  font-display: swap;
 }

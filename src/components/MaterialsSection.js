@@ -4,8 +4,8 @@ import Button from "./common/Button";
 export default function MaterialsSection() {
   return (
     <div className="w-full h-auto bg-white">
-      <div className="min-h-[70vh] grid grid-cols-1 md:grid-cols-2 md:pl-12">
-        <div className="p-6 flex flex-col justify-between max-w-lg">
+      <div className="min-h-[70vh] grid grid-cols-1 md:grid-cols-2 md:pl-12 pl-4">
+        <div className="py-6 flex flex-col justify-between max-w-lg">
           <div className="text-[16px] sm:text-[18px] text-gray-500 uppercase mb-2">
             Materials
           </div>
